@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    /* Base Options */
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "target": "ES5",
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+    /* Strictness */
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+
+    /* IF turning your TS code to JS with 'tsc' */
+    "module": "esnext",
+    "outDir": "dist",
+    "sourceMap": true,
+    /* AND if you're building for a library */
+    "declaration": true,
+
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "jsx": "react-jsx",
+    "rootDir": "src",
+    "lib": ["dom", "dom.iterable", "esnext"]
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}
